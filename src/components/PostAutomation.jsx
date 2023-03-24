@@ -47,7 +47,7 @@ const PostAutomation = () => {
             platform
           </p>
         </div>
-        <Row className="mt-sm-5 pt-sm-5 pb-5">
+        <Row className="mt-sm-5 pt-sm-5 pb-sm-5">
           <Col
             className="position-relative text-center text-lg-start"
             lg={4}
