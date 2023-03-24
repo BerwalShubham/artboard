@@ -1,13 +1,392 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Raleway:wght@500&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+.ff--raleway {
+  font-family: "Raleway", sans-serif;
+}
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+.cstm-container {
+  max-width: 1140px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+nav .networklogo {
+  position: absolute;
+  top: -43px;
+  left: -21px;
+}
+.wave {
+  position: absolute;
+  right: 0;
+  top: -16%;
+  z-index: -1;
+}
+.dotsgroup {
+  position: absolute;
+  left: 0;
+  top: 87%;
+}
+.yellowcross {
+  position: absolute;
+  left: 30%;
+  bottom: 28%;
+}
+.cross {
+  position: absolute;
+  left: 18%;
+  top: -2%;
+}
+.yellownetworklogo {
+  position: absolute;
+  right: 37%;
+  top: -2%;
+  transform: translateX(32%);
+}
+.networklogo2 {
+  position: absolute;
+  right: 27%;
+  bottom: -9%;
+  transform: translateX(32%);
+}
+.wave1 {
+  position: absolute;
+  bottom: -49%;
+  right: 0;
+  z-index: -1;
+}
+/* PRE-AUTOMATION SECTION */
+.preaotumation-wave {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+.preaotumation-cards {
+  background-color: #ffffff;
+  filter: drop-shadow(0px 6px 17px rgba(0, 0, 0, 0.059));
+}
+.preaotumation-image-bg {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #e8e9ff;
+}
+.preaotumation-networklogo {
+  position: absolute;
+  top: 2%;
+  left: -9%;
+  z-index: -1;
+}
+.preautomation-arrow {
+  position: absolute;
+  top: 4%;
+  right: -2%;
+}
+.preautomation-arrow-2 {
+  position: absolute;
+  bottom: 4%;
+  right: -2%;
+}
+.preautomation-arrow-3 {
+  position: absolute;
+  top: 4%;
+  right: -2%;
+}
+.preautomation-bg-rectangle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
+  background-color: #eeeeff;
+  z-index: -1;
+}
+.preautomation-dotsgroup {
+  position: absolute;
+  bottom: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.preautomation-yellowcross {
+  position: absolute;
+  bottom: 63%;
+  left: 58%;
+}
+.preautomation-networklogo2 {
+  position: absolute;
+  bottom: 57%;
+  right: 12%;
+}
+/* ------------ */
+
+/* POST AUTOMATION SECTION */
+.postautomation-bg-rectangle {
+  height: 107px;
+  width: 100%;
+  background: #fafafd;
+  position: absolute;
+  top: 25%;
+}
+.postautomation-bg-rectangle-2 {
+  height: 107px;
+  width: 100%;
+  background: #fafafd;
+  position: absolute;
+  top: 74%;
+}
+.postAutomationRectangle {
+  position: absolute;
+  top: -60%;
+  left: -10%;
+}
+.postAutomationRectangle-2 {
+  position: absolute;
+  top: -60%;
+  left: -10%;
+}
+.postAutomationRectangle-3 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.postAutomationRectangle-4 {
+  position: absolute;
+  top: -65%;
+  left: -1%;
+}
+.postAutomationRectangle-5 {
+  position: absolute;
+  top: -65%;
+  left: -1%;
+}
+.postautomation-arrow {
+  position: absolute;
+  bottom: -25%;
+  right: -10%;
+}
+.attherate {
+  position: absolute;
+  top: -72%;
+  left: 15%;
+  z-index: -1;
+}
+.postautomation-yellowcross {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.postautomation-yellowcross-2 {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
+.postautomation-networklogo {
+  position: absolute;
+  right: 0;
+  top: 15%;
+}
+/* --------------------- */
+
+/* Increasing process efficiency by */
+
+.efficiency-arrow {
+  position: absolute;
+  left: 53%;
+  transform: translateX(-53%);
+  top: 36%;
+}
+.preautomation {
+  background: #e2e3f1;
+  max-width: 488px;
+}
+.preautomation-back-div {
+  background: #d9dbee;
+  max-width: 488px;
+  position: absolute;
+  bottom: -8%;
+  height: 68px;
+  left: -1%;
+  z-index: -1;
+}
+.postautomation {
+  background: #f49e39;
+  max-width: 488px;
+}
+.postautomation-back-div {
+  background: #f49e39;
+  opacity: 31%;
+  max-width: 488px;
+  position: absolute;
+  bottom: -8%;
+  height: 68px;
+  right: -1%;
+  z-index: -1;
+}
+.vs-outer-cirle {
+  border: 3px dashed #c5c8ff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background: #e8e9ff;
+  position: absolute;
+  top: 0;
+  opacity: 50%;
+  z-index: 4;
+}
+.vs-inner-cirle {
+  border: 3px dashed rgba(244, 158, 57, 0.37);
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background: #ffffff;
+  position: absolute;
+  top: 24%;
+  z-index: 4;
+  transform: translateY(-11%);
+}
+.efficiency-manual-implementation-img {
+  width: 100%;
+}
+.efficiency-dots-group {
+  position: absolute;
+  left: -14%;
+  top: 0;
+}
+.efficiency-dots-group-2 {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+}
+/* ------------------- */
+
+/* DURATION INVOICE EFFORT */
+.bg-img {
+  background-image: url("/src/assets/images/png/durationInvoiceBgImg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 456px;
+}
+.dash {
+  width: 42px;
+  height: 4px;
+  background: #000000;
+  opacity: 0.24;
+}
+.divider {
+  width: 125px;
+  height: 15px;
+  position: absolute;
+  bottom: 18%;
+  left: -5%;
+  transform: translateY(8%);
+  border-top: 3px solid #ffffff;
+  z-index: 1;
+  rotate: -45deg;
+  background-color: var(--color-dark-blue-2);
+}
+.divider-2 {
+  width: 125px;
+  height: 22px;
+  position: absolute;
+  bottom: 18%;
+  left: -14%;
+  transform: translateY(8%) translateX(18%);
+  border-top: 3px solid #ffffff;
+  z-index: 1;
+  rotate: -45deg;
+  background-color: var(--color-dark-blue-2);
+}
+.months {
+  position: relative;
+  z-index: 5;
+}
+.leftarrow {
+  rotate: 180deg;
+}
+.bg-div {
+  background: #ffffff;
+  border: 3px solid rgba(36, 41, 147, 0.11);
+}
+.bg-img-2 {
+  position: absolute;
+  bottom: -15%;
+  right: 0;
+  z-index: -5;
+}
+.invoiceduration-yellowcross {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  z-index: -1;
+}
+/* ------------------- */
+@media (min-width: 575.98px) {
+  .wave {
+    position: absolute;
+    right: 0;
+    top: -30%;
+    z-index: -1;
+  }
+  .yellowcross {
+    position: absolute;
+    left: 50%;
+    bottom: -18%;
+  }
+  .efficiency-manual-implementation-img {
+    width: 400px;
+    height: 320px;
+  }
+}
+@media (min-width: 991.98px) {
+  .preautomation-dotsgroup {
+    position: absolute;
+    bottom: -9%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .postAutomationRectangle {
+    position: absolute;
+    top: -60%;
+    left: -10%;
+  }
+  .postAutomationRectangle-2 {
+    position: absolute;
+    top: -60%;
+    left: -10%;
+  }
+  .postAutomationRectangle-3 {
+    position: absolute;
+    top: -60%;
+    left: -10%;
+  }
+  .postAutomationRectangle-4 {
+    position: absolute;
+    top: -60%;
+    left: -1%;
+  }
+  .postAutomationRectangle-5 {
+    position: absolute;
+    top: -60%;
+    left: -1%;
+  }
+  .postautomation-bg-rectangle-2 {
+    height: 107px;
+    width: 100%;
+    background: #fafafd;
+    position: absolute;
+    top: 63%;
+    transform: translateY(-5%);
+  }
+  .preautomation {
+    background: #e2e3f1;
+    width: 488px;
+  }
+  .postautomation {
+    background: #f49e39;
+    width: 488px;
+  }
 }
